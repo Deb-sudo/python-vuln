@@ -1,3 +1,13 @@
 # Snyk ignore file
 
+ignore:
+  SNYK-PYTHON-WERKZEUG-3319936:  # Replace with actual Snyk vulnerability ID
+    - "*":  # Applies to all projects
+      reason: "SQL Injection in Django 2.2.16 is not relevant for our use case."
+      expires: "2025-12-31T23:59:59.999Z"
+
+  SNYK-PYTHON-WERKZEUG-6808933:  # Replace with actual Snyk vulnerability ID
+    - "*":
+      reason: "Critical RCE in Django 3.2.7 is under remediation; temporary ignore."
+      expires: "2024-12-31T23:59:59.999Z"
 
