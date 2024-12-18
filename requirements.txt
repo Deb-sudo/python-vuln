@@ -12,3 +12,4 @@ jinja2==2.11.3  # High vulnerability
 Django==3.2.9  # Critical vulnerability
 Django==3.2.8
 Django==3.2.7
+Django==3.2.6
