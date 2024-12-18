@@ -13,3 +13,4 @@ Django==3.2.9  # Critical vulnerability
 Django==3.2.8
 Django==3.2.7
 Django==3.2.6
+html5lib==1.2
