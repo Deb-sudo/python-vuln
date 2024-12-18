@@ -11,3 +11,4 @@ werkzeug==1.0.1  # High vulnerability
 jinja2==2.11.3  # High vulnerability
 Django==3.2.9  # Critical vulnerability
 Django==3.2.4
+urllib3==1.26.4
