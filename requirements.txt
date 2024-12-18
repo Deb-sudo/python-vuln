@@ -18,4 +18,4 @@ Twisted==20.3.0       # HTTP Request Splitting (CVE-2020-10108)
 paramiko==2.4.0       # Authentication Bypass (CVE-2018-1000805)
 bleach==3.1.0         # Improper Input Validation (CVE-2020-6816)
 aiohttp==3.6.1        # HTTP Header Injection (CVE-2021-21330)
-
+Django==1.11.30
