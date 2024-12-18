@@ -12,7 +12,7 @@ jobs:
       # Step 2: Run Snyk to check for vulnerabilities
       - name: Run Snyk to check for vulnerabilities
         id: snyk-scan
-        uses: snyk/actions/python@v1
+        uses: snyk/actions/python@master
         continue-on-error: true # Allow the SARIF file to be uploaded even if this step fails
         env:
           SNYK_TOKEN: a1eb8b76-9f7f-4ff8-8fcb-e951abcdfa23
