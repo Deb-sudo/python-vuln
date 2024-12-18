@@ -1,22 +1,16 @@
 # Requirements for Python project with critical and high vulnerabilities
 werkzeug==1.0.1  # High vulnerability
-Django==2.2.16         # SQL Injection (CVE-2020-9402)
-Django==3.2.7          # Critical Remote Code Execution (CVE-2021-33571)
-requests==2.19.1       # Man-in-the-Middle attack (CVE-2018-18074)
-urllib3==1.25.3        # Insecure certificate validation (CVE-2019-11324)
-urllib3==1.26.3        # CRLF Injection (CVE-2021-33503)
-PyYAML==5.1            # Arbitrary code execution (CVE-2017-18342)
-Flask==0.12.2          # Open Redirect (CVE-2018-1000656)
-Jinja2==2.10           # Sandbox escape vulnerability (CVE-2019-10906)
-Werkzeug==0.14.1       # Path traversal (CVE-2019-14806)
-sqlalchemy==1.3.20     # SQL Injection (CVE-2020-12855)
-cryptography==2.8      # Padding Oracle vulnerability (CVE-2020-25659)
-html5lib==1.0b10       # Improper input validation (CVE-2016-9909)
-Django==3.2.5  # Critical vulnerability
-requests==2.25.1  # High vulnerability
-beautifulsoup4==4.9.3  # High vulnerability
-sqlalchemy==1.3.23  # High vulnerability
-cryptography==3.3.2  # High vulnerability
-urllib3==1.26.5  # High vulnerability
-html5lib==1.1  # High vulnerability
-jinja2==2.11.3  # High vulnerability
+Django==1.11.29       # SQL Injection (CVE-2019-19844)
+Flask==1.0            # Remote Code Execution (CVE-2019-1010083)
+requests==2.20.0      # Insecure Dependency (CVE-2018-18074)
+urllib3==1.24.1       # Certificate Validation Vulnerability (CVE-2019-11324)
+PyYAML==3.13          # Arbitrary Code Execution (CVE-2020-14343)
+Jinja2==2.9.6         # Sandbox escape vulnerability (CVE-2016-10745)
+sqlalchemy==1.2.19    # SQL Injection (CVE-2019-7164)
+cryptography==2.5     # Heap Buffer Overflow (CVE-2020-25659)
+html5lib==0.999999999 # Cross-Site Scripting (CVE-2016-9909)
+lxml==4.6.2           # XML External Entity Injection (CVE-2020-27783)
+Twisted==20.3.0       # HTTP Request Splitting (CVE-2020-10108)
+paramiko==2.4.0       # Authentication Bypass (CVE-2018-1000805)
+bleach==3.1.0         # Improper Input Validation (CVE-2020-6816)
+aiohttp==3.6.1        # HTTP Header Injection (CVE-2021-21330)
