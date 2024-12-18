@@ -8,7 +8,9 @@ jobs:
     steps:
       # Step 1: Checkout the code
       - uses: actions/checkout@v3
-
+      #install dependecies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       # Step 2: Run Snyk to check for vulnerabilities
       - name: Run Snyk to check for vulnerabilities
         id: snyk-scan
