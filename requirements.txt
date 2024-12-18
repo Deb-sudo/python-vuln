@@ -13,3 +13,12 @@ Werkzeug==0.14.1       # Path traversal (CVE-2019-14806)
 sqlalchemy==1.3.20     # SQL Injection (CVE-2020-12855)
 cryptography==2.8      # Padding Oracle vulnerability (CVE-2020-25659)
 html5lib==1.0b10       # Improper input validation (CVE-2016-9909)
+Django==3.2.5  # Critical vulnerability
+requests==2.25.1  # High vulnerability
+beautifulsoup4==4.9.3  # High vulnerability
+sqlalchemy==1.3.23  # High vulnerability
+cryptography==3.3.2  # High vulnerability
+urllib3==1.26.5  # High vulnerability
+html5lib==1.1  # High vulnerability
+werkzeug==1.0.1  # High vulnerability
+jinja2==2.11.3  # High vulnerability
